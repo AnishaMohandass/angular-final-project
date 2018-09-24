@@ -1,0 +1,9 @@
+<ul class="color">
+  <li *ngFor="let detail of details" 
+  [class.selected]="detail === selectedname"
+  (click)="onSelect(detail)">
+    <span>{{detail.name}}</span>
+  </li>
+</ul>
+
+<app-col-detail [detail]="selectedname"></app-col-detail>

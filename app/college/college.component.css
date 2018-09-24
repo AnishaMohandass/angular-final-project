@@ -1,0 +1,15 @@
+.color li
+{
+  cursor: pointer;
+  position: relative;
+  background-color: plum;
+  margin: 6px;
+  padding: 10px;
+  height: 17px;
+  width: 20%;
+}
+
+.color li.selected:hover
+{
+background-color: lightcyan;
+}
